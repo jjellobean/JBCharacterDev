@@ -110,8 +110,8 @@
 .jbdt ul {
 	margin: 0;
 	padding-inline-start: 5%;
-  /*list-style-type: none;
-	counter-reset: listStyle;*/
+  	list-style-type: none;
+	/*counter-reset: listStyle;*/
 }
 
 .jbdt ul li {
@@ -127,13 +127,13 @@
 .jbdt ul li:before {
 	display: table-cell;
 	margin-right: 5px;
-  width: 28px;
+  width: 14px;
 	padding: 0;
-  font-size: var(--jbdtFontSize);
+  font-size: calc(var(--jbdtFontSize) * 1.1);
 	font-family: var(--sans);
 	font-weight: 700;
 	color: var(--AccentColor);
-  content: counter(listStyle, circle);
+  content: var(--AccentIcon);
 }
 
 .jbdt ol li ul li {
