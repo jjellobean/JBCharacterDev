@@ -50,7 +50,7 @@
 
 .jbdt u {
   opacity: 1;
-  border-bottom: 1px solid var(--OLIVIERACCENT);
+  border-bottom: 1px solid var(--AccentColor);
 	padding: 1px 0px;
   background: none;
   -webkit-background-clip: revert!important;
