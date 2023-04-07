@@ -10,7 +10,7 @@
   --jbdtFontColor: #000000BF;
   --OLIVIERACCENT: #fadb9d;
   margin: auto;
-  border: 1px solid var(--OLIVIERACCENT);
+  border: 1px solid var(--AccentColor);
   border-top: 0px;
   box-sizing: border-box!important;
   width: 90%;
@@ -66,11 +66,11 @@
 
 .jbdt a:hover, .jbdt a:active {
   text-decoration: none;
-  color: var(--OLIVIERACCENT);
+  color: var(--AccentColor);
 }
 
 .darkmode .jbdt a, .darkmode .jbdt a:visited {
-  color: var(--OLIVIERACCENT);
+  color: var(--AccentColor);
 }
 
 .darkmode .jbdt a:hover, .darkmode .jbdt a:active {
@@ -84,7 +84,7 @@
 	padding-inline-start: 5%;
 }
 
-.jbdt ol li/*, .ASLDefaults ul li ol li*/ {
+.jbdt ol li {
 	display: table;
   margin: 0;
   border: none!important;
@@ -94,7 +94,7 @@
 	counter-increment: ol-counter;
 }
 
-.jbdt ol li:before/*, .ASLDefaults ul li ol li:before*/ {
+.jbdt ol li:before {
 	display: table-cell;
   margin-right: 5px;
   width: 28px; 
@@ -103,7 +103,7 @@
 	font-family: var(--jbdtSans);
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: var(--OLIVIERACCENT);
+	color: var(--AccentColor);
   content: counter(ol-counter,decimal-leading-zero);
 }
 
@@ -132,7 +132,7 @@
   font-size: var(--jbdtFontSize);
 	font-family: var(--sans);
 	font-weight: 700;
-	color: var(--OLIVIERACCENT);
+	color: var(--AccentColor);
   content: counter(listStyle, circle);
 }
 
@@ -155,7 +155,7 @@
 }
 
 .jbdt ul.unset li:before { 
-  color: var(--OLIVIERACCENT); 
+  color: var(--AccentColor); 
 }
 
 .jbdtTop {
@@ -173,7 +173,7 @@
 .jbdtTitle {
   order: 1;
   flex: 1 0 80%;
-  border: 0px solid var(--OLIVIERACCENT);
+  border: 0px solid var(--AccentColor);
   box-sizing: border-box!important;
   /*width: fit-content;
   min-width: 200px;*/
@@ -187,7 +187,7 @@
 
 .jbdtSymbol {
   order: 2;
-  border: 0px solid var(--OLIVIERACCENT);
+  border: 0px solid var(--AccentColor);
   box-sizing: border-box!important;
   /*width: 50%;*/
 }
@@ -202,7 +202,7 @@
 }
 
 .darkmode .jbdtSymbol i {
-  color: var(--OLIVIERACCENT);
+  color: var(--AccentColor);
 }
 
 .jbdtContent {
@@ -210,7 +210,7 @@
 }
 
 .jbdtContent a, .jbdtContent a:visited {
-  border-bottom: 1px solid var(--OLIVIERACCENT);
+  border-bottom: 1px solid var(--AccentColor);
 	padding: 1px 0px;
   font-weight: 800;
 	text-transform: lowercase;
@@ -220,7 +220,7 @@
 	margin: 14px 0;
   border: 0px;
   height: 1px;
-	background: var(--OLIVIERACCENT);
+	background: var(--AccentColor);
 }
 
 .jbdtButton {
@@ -231,7 +231,7 @@
 
 .jbdt h2 {
   margin: -4px 0 4px;
-  border-bottom: 4px solid var(--OLIVIERACCENT);
+  border-bottom: 4px solid var(--AccentColor);
   width: fit-content;
   padding: 1px 0px;
   background: none;
@@ -242,7 +242,7 @@
 
 .darkmode .jbdt h2 {
   border-bottom: 4px solid #ffffff;
-  color: var(--OLIVIERACCENT)!important;
+  color: var(--AccentColor)!important;
 }
 
 .jbdtHide {
@@ -265,7 +265,7 @@
   margin: auto;
   margin-top: 14px;
   box-sizing: border-box!important;
-  border: 1px solid var(--OLIVIERACCENT);
+  border: 1px solid var(--AccentColor);
   width: 90%;
   padding: 3% 5%;
 }
@@ -285,30 +285,30 @@
 .jbdtBottom img {
   order: 2;
   border: 0px solid red;
-  border-top: 0px solid var(--OLIVIERACCENT);
-  border-bottom: 0px solid var(--OLIVIERACCENT);
+  border-top: 0px solid var(--AccentColor);
+  border-bottom: 0px solid var(--AccentColor);
   box-sizing: border-box!important;
   max-width: 147px;
   padding: 10px;
 }
 
-.jbdtPlatonicName {
+.jbdtPlatonic {
   order: 1;
   border: 0px solid red;
-  border-top: 1px solid var(--OLIVIERACCENT);
-  border-left: 1px solid var(--OLIVIERACCENT);
+  border-top: 1px solid var(--AccentColor);
+  border-left: 1px solid var(--AccentColor);
   box-sizing: border-box!important;
 }
 
-.jbdtRomanticName {
+.jbdtRomantic {
   order: 3;
   border: 0px solid red;
-  border-right: 1px solid var(--OLIVIERACCENT);
-  border-bottom: 1px solid var(--OLIVIERACCENT);
+  border-right: 1px solid var(--AccentColor);
+  border-bottom: 1px solid var(--AccentColor);
   box-sizing: border-box!important;
 }
 
-.jbdtPlatonicName, .jbdtRomanticName {
+.jbdtPlatonic, .jbdtRomantic {
   max-width: 147px;
   height: 147px;
   padding: 10px;
@@ -319,27 +319,11 @@
   text-align: center;
 }
 
-.jbdtPlatonicName i, .jbdtRomanticName i {
+.jbdtPlatonic i, .jbdtRomantic i {
   opacity: 1;
   padding-top: 10%;
   background: none;
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   font-size: 60px;
-}
-
-.jbdtPlatonicName i, .jbdtPlatonicSmallName i {
-  color: #ff0000;
-}
-
-.darkmode .jbdtPlatonicName i, .darkmode .jbdtPlatonicSmallName i {
-  color: #ff0000;
-}
-
-.jbdtRomanticName i, .jbdtRomanticSmallName i {
-  color: #939393;
-}
-
-.darkmode .jbdtRomanticName i, .darkmode .jbdtRomanticSmallName i {
-  color: #939393;
 }
