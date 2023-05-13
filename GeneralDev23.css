@@ -256,7 +256,7 @@
   -webkit-text-fill-color: revert;
   font: 600 calc(var(--jbdtFontSize) * 1.5) var(--jbdtH2);
 	text-transform: lowercase;
-	color: var(--OLIVIERACCENT)!important;  
+	color: var(--AccentColor)!important;  
 }
 
 .jbdtHide {
@@ -297,7 +297,7 @@
   order: 2;
   flex-basis: 62%;
   box-sizing: border-box;
-  border: 1px solid var(--OLIVIERACCENT);
+  border: 1px solid var(--AccentColor);
   padding: 4%;
 }
 
