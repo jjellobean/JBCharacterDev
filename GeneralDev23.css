@@ -127,7 +127,7 @@
 .jbdt ul li:before {
 	display: table-cell;
 	margin-right: 5px;
-  width: 14px;
+  width: 24px;
 	padding: 0;
   font-size: calc(var(--jbdtFontSize) * 1.1);
 	font-family: var(--sans);
@@ -245,6 +245,20 @@
   color: var(--AccentColor)!important;
 }
 
+.jbdt h3 {
+  margin: 12px 0 0;
+  opacity: 1;
+  border-bottom: 0px solid var(--dark30);
+  width: fit-content;
+  padding: 1px 0;
+  background: none;
+  -webkit-background-clip: revert!important;
+  -webkit-text-fill-color: revert;
+  font: 600 calc(var(--jbdtFontSize) * 1.5) var(--jbdtH2);
+	text-transform: lowercase;
+	color: var(--OLIVIERACCENT)!important;  
+}
+
 .jbdtHide {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -258,6 +272,37 @@
 
 .jbdtThreadDescription { 
   margin-bottom: 1em;
+  padding-left: 5%;
+}
+
+.jbdtPlotterInfoTop { 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px auto;
+  padding-left: 5%;
+}
+
+.jbdtPlotterInfoImg { 
+  order: 1;
+  flex-basis: 200px;
+}
+
+.jbdtPlotterLinks {
+  text-align: center;
+}
+
+.jbdtPlotterInfoSummary { 
+  order: 2;
+  flex-basis: 62%;
+  box-sizing: border-box;
+  border: 1px solid var(--OLIVIERACCENT);
+  padding: 4%;
+}
+
+/*CHANGE*/
+.jbdtPlotterInfoDetails {
   padding-left: 5%;
 }
 
