@@ -3,6 +3,10 @@
   --AccentIcon: "☼";
 }
 
+.jb_theodore {
+  --AccentIcon: "✘";
+}
+
 .jb_plotter {
   --AccentColor: #d0afff;
   --AccentIcon: "♡";
