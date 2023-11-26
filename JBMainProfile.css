@@ -1,0 +1,27 @@
+.jbmp ul {
+	margin: 0;
+	padding-inline-start: 5%;
+  list-style-type: none;
+	/*counter-reset: listStyle;*/
+}
+
+.jbmp ul li {
+	display: table;
+  margin: 0;
+  border: none;
+	width: 100%;
+	padding: 0;
+	/*counter-increment: listStyle;*/
+}
+
+.jbmp ul li:before {
+	display: table-cell;
+	margin-right: 5px;
+  width: 14px;
+	padding: 0;
+  font-size: calc(var(--jbdtFontSize) * 1.1);
+	font-family: var(--sans);
+	font-weight: 700;
+  /*content: counter(listStyle, circle);*/
+  content: var(--AccentIcon);
+}   
