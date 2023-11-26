@@ -133,7 +133,7 @@
 	font-family: var(--sans);
 	font-weight: 700;
 	color: var(--AccentColor);
-  content: var(--AccentIcon);
+  content: var(--AccentIcon)!important;
 }
 
 .jbdt ol li ul li {
