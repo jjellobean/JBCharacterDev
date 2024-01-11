@@ -46,13 +46,29 @@
   --AccentIcon: "♫"
 }
 
+.jb_malachi {
+  --AccentIcon: "✝"
+}
+
 .jb_olivier {
   --AccentColor: #FADB9D;
   --AccentIcon: "☼";
 }
 
+.jb_spud {
+  --AccentIcon: "☠";
+}
+
+.jb_theresia {
+  --AccentIcon: "♛";
+}
+
 .jb_theodore {
   --AccentIcon: "✘";
+}
+
+.jb_william {
+  --AccentIcon: "✄"
 }
 
 .jb_plotter {
