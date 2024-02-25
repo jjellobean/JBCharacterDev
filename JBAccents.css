@@ -54,6 +54,10 @@
   --AccentIcon: "✝"
 }
 
+.jb_naoise {
+  --AccentIcon: "▷"
+}
+
 .jb_olivier {
   --AccentColor: #FADB9D;
   --AccentIcon: "☼";
