@@ -59,11 +59,12 @@
 }
 
 .jb_naoise {
+  --AccentColor: #767BA5;
   --AccentIcon: "▷"
 }
 
 .jb_olivier {
-  --AccentColor: #FADB9D;
+  --AccentColor: #FBD897;
   --AccentIcon: "☼";
 }
 
