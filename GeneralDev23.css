@@ -216,6 +216,15 @@
 	text-transform: lowercase;
 }
 
+.jbdtCLContentBox {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+  border: 1px solid var(--AccentColor);
+  padding: 4%;
+}
+
 .jbdt hr {
 	margin: 14px 0;
   border: 0px;
