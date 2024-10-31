@@ -19,7 +19,8 @@
 }
 
 .jb_eduardo {
-  --AccentIcon: "⚘"
+  --AccentColor: #849BCC;
+  --AccentIcon: "⚘";
 }
 
 .jb_edwin {
@@ -60,12 +61,12 @@
 
 .jb_mercutio {
   --AccentColor: #F0C2D6;
-  --AccentIcon: "★"
+  --AccentIcon: "★";
 }
 
 .jb_naoise {
   --AccentColor: #757CA9;
-  --AccentIcon: "▷"
+  --AccentIcon: "▷";
 }
 
 .jb_olivier {
