@@ -20,6 +20,9 @@
 
 .jb_eduardo {
   --AccentColor: #849BCC;
+  --AccentColor_H: 221;
+  --AccentColor_S: 42%;
+  --AccentColor_L: 66%;
   --AccentIcon: "⚘";
 }
 
@@ -44,6 +47,10 @@
 }
 
 .jb_hugo {
+  --AccentColor: #372c42;
+  --AccentColor_H: 270;
+  --AccentColor_S: 20%;
+  --AccentColor_L: 22%;
   --AccentIcon: "✎"
 }
 
@@ -61,6 +68,9 @@
 
 .jb_mercutio {
   --AccentColor: #F0C2D6;
+  --AccentColor_H: 334;
+  --AccentColor_S: 60%;
+  --AccentColor_L: 85%;
   --AccentIcon: "★";
 }
 
@@ -71,6 +81,9 @@
 
 .jb_olivier {
   --AccentColor: #FCDC95;
+  --AccentColor_H: 41;
+  --AccentColor_S: 95%;
+  --AccentColor_L: 71%;
   --AccentIcon: "☼";
 }
 
