@@ -97,6 +97,9 @@
 
 .jb_taoxi {
   --AccentColor: #61B1D3;
+  --AccentColor_H: 197;
+  --AccentColor_S: 54%;
+  --AccentColor_L: 82%;
   --AccentIcon: "𐰢";
 }
 
