@@ -78,6 +78,10 @@
   --AccentIcon: "★";
 }
 
+.jb_milo {
+  --AccentIcon: "✧";
+}
+
 .jb_naoise {
   --AccentColor: #757CA9;
   --AccentIcon: "▷";
