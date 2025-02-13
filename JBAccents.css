@@ -1,77 +1,93 @@
-.jb_adelaide {
-  --AccentIcon: "☞"
-}
-
 .jb_aj {
+  --AccentColor: #2E272A; /* high risk red */
+  --AccentColor_H: 334;
+  --AccentColor_S: 8%;
+  --AccentColor_L: 17%;
   --AccentIcon: "⌖"
 }
 
-.jb_beauregard {
-  --AccentIcon: "Ω"
-}
-
 .jb_cooper {
+  --AccentColor: #FFA368; /* mock orange */
+  --AccentColor_H: 23;
+  --AccentColor_S: 100%;
+  --AccentColor_L: 70%;
   --AccentIcon: "❄︎"
 }
 
 .jb_danny {
+  --AccentColor: #AD3E48; /* cardinal */
+  --AccentColor_H: 355;
+  --AccentColor_S: 47%;
+  --AccentColor_L: 46%;
   --AccentIcon: "⚑"
 }
 
 .jb_eduardo {
-  --AccentColor: #849BCC;
+  --AccentColor: #849BCC; /* hydrangea */
   --AccentColor_H: 221;
   --AccentColor_S: 42%;
   --AccentColor_L: 66%;
   --AccentIcon: "⚘";
 }
 
-.jb_edwin {
-  --AccentIcon: "➜"
-}
-
-.jb_elio {
-  --AccentIcon: "𐂂"
-}
-
 .jb_frankie {
+  --AccentColor: #9B4722; /* cinnamon stick */
+  --AccentColor_H: 18;
+  --AccentColor_S: 64%;
+  --AccentColor_L: 37%;
   --AccentIcon: "Ʊ"
 }
 
 .jb_gabriel {
+  --AccentColor: #EDCDC2; /* pale dogwood */
+  --AccentColor_H: 15;
+  --AccentColor_S: 55%;
+  --AccentColor_L: 85%;
   --AccentIcon: "♚"
 }
 
 .jb_giuseppe {
+  --AccentColor: #334D41; /* pineneedle */
+  --AccentColor_H: 152;
+  --AccentColor_S: 20%;
+  --AccentColor_L: 25%;
   --AccentIcon: "☾"
 }
 
 .jb_hugo {
-  --AccentColor: #372c42;
-  --AccentColor_H: 270;
-  --AccentColor_S: 20%;
-  --AccentColor_L: 22%;
+  --AccentColor: #433748; /* nightshade */
+  --AccentColor_H: 282;
+  --AccentColor_S: 13%;
+  --AccentColor_L: 25%;
   --AccentIcon: "✎"
 }
 
 .jb_jake {
+  --AccentColor: #386192; /* star sapphire */
+  --AccentColor_H: 213;
+  --AccentColor_S: 45%;
+  --AccentColor_L: 40%;
   --AccentIcon: "♦︎"
 }
 
-.jb_james {
-  --AccentIcon: "♫"
-}
-
 .jb_khatijah {
+  --AccentColor: #56456B; /* Purple Reign */
+  --AccentColor_H: 267;
+  --AccentColor_S: 22%;
+  --AccentColor_L: 35%;
   --AccentIcon: "✗"
 }
 
 .jb_malachi {
+  --AccentColor: #B93A32; /* high risk red */
+  --AccentColor_H: 4;
+  --AccentColor_S: 57%;
+  --AccentColor_L: 46%;
   --AccentIcon: "✝"
 }
 
 .jb_mercutio {
-  --AccentColor: #F0C2D6;
+  --AccentColor: #F0C2D6; /* pink lady */
   --AccentColor_H: 334;
   --AccentColor_S: 60%;
   --AccentColor_L: 85%;
@@ -79,16 +95,23 @@
 }
 
 .jb_milo {
+  --AccentColor: #556962; /* dark forest */
+  --AccentColor_H: 159;
+  --AccentColor_S: 11%;
+  --AccentColor_L: 37%;
   --AccentIcon: "✧";
 }
 
 .jb_naoise {
-  --AccentColor: #757CA9;
+  --AccentColor: #757CA9; /* lavender violet */
+  --AccentColor_H: 231;
+  --AccentColor_S: 30%;
+  --AccentColor_L: 66%;
   --AccentIcon: "▷";
 }
 
 .jb_olivier {
-  --AccentColor: #FCDC95;
+  --AccentColor: #FCDC95; /* golden haze */
   --AccentColor_H: 41;
   --AccentColor_S: 95%;
   --AccentColor_L: 71%;
@@ -96,26 +119,34 @@
 }
 
 .jb_spud {
+  --AccentColor: #F88180; /* shell pink */
+  --AccentColor_H: 0;
+  --AccentColor_S: 89%;
+  --AccentColor_L: 74%;
   --AccentIcon: "☠";
 }
 
 .jb_taoxi {
-  --AccentColor: #61B1D3;
+  --AccentColor: #61B1D3; /* crystal seas */
   --AccentColor_H: 197;
   --AccentColor_S: 54%;
   --AccentColor_L: 82%;
   --AccentIcon: "𐰢";
 }
 
-.jb_theodore {
-  --AccentIcon: "✘";
-}
-
 .jb_valentina {
+  --AccentColor: #8C373E; /* brick red */
+  --AccentColor_H: 355;
+  --AccentColor_S: 44%;
+  --AccentColor_L: 38%;
   --AccentIcon: "♛";
 }
 
 .jb_william {
+  --AccentColor: #46434A; /* nine iron */
+  --AccentColor_H: 266;
+  --AccentColor_S: 5%;
+  --AccentColor_L: 28%;
   --AccentIcon: "✄"
 }
 
@@ -127,4 +158,32 @@
 .jb_plotter_fam {
   --AccentColor: #d0afff;
   --AccentIcon: "𖨆";
+}
+
+
+
+/* RETIRED CHARACTERS */
+
+.jb_adelaide {
+  --AccentIcon: "☞"
+}
+
+.jb_beauregard {
+  --AccentIcon: "Ω"
+}
+
+.jb_edwin {
+  --AccentIcon: "➜"
+}
+
+.jb_elio {
+  --AccentIcon: "𐂂"
+}
+
+.jb_james {
+  --AccentIcon: "♫"
+}
+
+.jb_theodore {
+  --AccentIcon: "✘";
 }
