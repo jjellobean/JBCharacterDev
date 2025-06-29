@@ -102,6 +102,10 @@
   --AccentIcon: "✧";
 }
 
+.jb_morning {
+  --AccentIcon: "𖤐";
+}
+
 .jb_naoise {
   --AccentColor: #757CA9; /* lavender violet */
   --AccentColor_H: 231;
