@@ -10,6 +10,10 @@
   --AccentIcon: "⌖"
 }
 
+.jb_audra {
+  --AccentIcon: "𐂂";
+}
+
 .jb_cooper {
   --AccentColor: #FFA368; /* mock orange */
   --AccentColor_H: 23;
