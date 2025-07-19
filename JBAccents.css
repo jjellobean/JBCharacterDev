@@ -14,6 +14,10 @@
   --AccentIcon: "𐂂 ";
 }
 
+.jb_audra ul li:before {
+  padding-right: 5px;
+}
+
 .jb_cooper {
   --AccentColor: #FFA368; /* mock orange */
   --AccentColor_H: 23;
