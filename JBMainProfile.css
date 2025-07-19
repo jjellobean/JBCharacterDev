@@ -16,7 +16,7 @@
 
 .jbmp ul li:before {
 	display: table-cell;
-	margin-right: 5px;
+	margin-right: 50px;
   width: 14px;
 	padding: 0;
   /*font-size: calc(var(--jbdtFontSize) * 1.1);*/
