@@ -5,6 +5,7 @@
   --TitleFamily: "Courgette", serif;
   --SansFamily: "Raleway", sans-serif;
   --FontSize: 10px;
+  --White: #fefefe;
   --Color_H: var(--AccentColor_H);
   --Color_S: var(--AccentColor_S);
   --Color_L: var(--AccentColor_L);
@@ -13,11 +14,10 @@
     calc(var(--Color_S) * 0.2),
     calc(var(--Color_L) - var(--Color_L) * 0.7)
     );
-  --White: #fefefe;
   margin: auto;
   box-sizing: border-box!important;
   width: 600px;
-  padding: 14px;
+  padding: 20px; /*14px;*/
   background-color: hsl(
     var(--Color_H),
     calc(var(--Color_S) * 0.8),
@@ -26,6 +26,7 @@
   font-size: calc(var(--FontSize) * 1.3);
   line-height: calc(var(--FontSize) * 2.5);
   font-family: var(--SansFamily);
+  font-weight: 400;
   text-align: justify;
   color: hsl(
     var(--Color_H),
@@ -42,6 +43,8 @@
 }
 
 .jbpt b {
+  padding: 0px;
+  font-weight: 700;
   color: hsl(
     var(--Color_H), 
     var(--Color_S), 
@@ -58,11 +61,16 @@
 }
 
 .jbpt b i {
+  font-weight: 700;
   color: hsl(
     var(--Color_H), 
     calc(var(--Color_S) * .8),
     calc(var(--Color_L) - var(--Color_L) * 0.2)
     );
+}
+
+.jbpt i.ph {
+  font-style: normal;
 }
 
 .jbpt u {
@@ -84,8 +92,8 @@
 
 .jbpt a:hover, .jbpt a:active {
   border-bottom: 1px solid var(--AccentColor);
-  color: var(--AccentColor);
-	transition-duration: revert;
+  color: var(--AccentColor)!important;
+  transition-duration: 0s;
 }
 
 .jbpt ol {
@@ -138,7 +146,7 @@
   margin-right: 5px;
   width: 24px;
   padding: 0;
-  font-size: calc(var(--FontSize) * 1.1);
+  /*font-size: calc(var(--FontSize) * 1.1);*/
   font-family: var(--SansFamily);
   font-weight: 700;
   color: var(--AccentColor);
@@ -167,7 +175,7 @@
   color: var(--AccentColor); 
 }
 
-hr {
+.jbpt hr {
   margin: 14px 0px;
   border: 0px;
   height: 1px;
@@ -178,7 +186,7 @@ hr {
   box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
   box-sizing: border-box!important;
   border: .0px solid var(--AccentColor);
-  padding: 14px;
+  padding: 20px; /*14px;*/
   background-color: hsl(
     var(--Color_H),
     var(--Color_S),
