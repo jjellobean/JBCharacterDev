@@ -53,6 +53,7 @@
 }
 
 .jbpt i {
+	text-transform: none;
   color: hsl(
     var(--Color_H),
     calc(var(--Color_S) * .9),
