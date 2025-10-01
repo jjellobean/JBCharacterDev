@@ -85,6 +85,7 @@
 .jbpt a:hover, .jbpt a:active {
   border-bottom: 1px solid var(--AccentColor);
   color: var(--AccentColor);
+	transition-duration: revert;
 }
 
 .jbpt ol {
