@@ -542,3 +542,7 @@
 .jbdt2_footer a:hover, .jbdt2_footer a:active {
   text-shadow: 3px 2px #00000066;
 }
+
+.jbdt2_footer i {
+  color: var(--AccentLight);
+}
