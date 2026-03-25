@@ -176,7 +176,10 @@
 }
 
 .jb_plotter_fam {
-  --AccentColor: #d0afff;
+  --AccentColor: #B0B7FF;
+  --AccentColor_H: 235;
+  --AccentColor_S: 100%;
+  --AccentColor_L: 85%;
   --AccentIcon: "𖨆";
 }
 
