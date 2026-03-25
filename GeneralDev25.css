@@ -1045,3 +1045,19 @@
 .jbmbt_letter_inner > :last-child {
   margin-bottom: 0;
 }
+
+.jb_plotter_fam a {
+  cursor: revert!important;
+}
+
+.jbdt2_details_text h3 {
+  text-align: center;
+}
+
+.jb_plotter_fam .jbdt2_details_text p {
+  margin-top: 0;
+}
+
+.jb_plotter_fam .jbdt2_details_heartbox {
+  margin-bottom: 19px;
+}
