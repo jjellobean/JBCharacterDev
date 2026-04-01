@@ -1046,18 +1046,18 @@
   margin-bottom: 0;
 }
 
-.jb_plotter_fam a, .jb_plotter_rom a {
+.jb_plotter_fam a, .jb_plotter_rom a, .jb_plotter_misc a{
   cursor: revert!important;
 }
 
-.jb_plotter_fam .jbdt2_details_text h3, .jb_plotter_rom .jbdt2_details_text h3 {
+.jb_plotter_fam .jbdt2_details_text h3, .jb_plotter_rom .jbdt2_details_text h3, .jb_plotter_misc .jbdt2_details_text h3 {
   text-align: center;
 }
 
-.jb_plotter_fam .jbdt2_details_text p, .jb_plotter_rom .jbdt2_details_text p {
+.jb_plotter_fam .jbdt2_details_text p, .jb_plotter_rom .jbdt2_details_text p, .jb_plotter_misc .jbdt2_details_text p {
   margin-top: 0;
 }
 
-.jb_plotter_fam .jbdt2_details_heartbox, .jb_plotter_rom .jbdt2_details_heartbox {
+.jb_plotter_fam .jbdt2_details_heartbox, .jb_plotter_rom .jbdt2_details_heartbox, .jb_plotter_misc .jbdt2_details_heartbox {
   margin-bottom: 19px;
 }
