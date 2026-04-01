@@ -175,7 +175,7 @@
   --AccentIcon: "♡";
 }
 
-.jb_plotter_fam, .jb_plotter_rom {
+.jb_plotter_fam, .jb_plotter_rom, .jb_plotter_misc {
   --AccentColor: #B0B7FF;
   --AccentColor_H: 235;
   --AccentColor_S: 100%;
@@ -187,6 +187,10 @@
 
 .jb_plotter_rom {
   --AccentIcon: "♡";
+}
+
+.jb_plotter_misc {
+  --AccentIcon: "⊳";
 }
 
 
