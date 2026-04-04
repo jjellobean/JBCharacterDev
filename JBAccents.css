@@ -138,6 +138,10 @@
   --AccentIcon: "☼";
 }
 
+.jb_saint {
+  --AccentIcon: "☁";
+}
+
 .jb_spud {
   --AccentColor: #F88180; /* shell pink */
   --AccentColor_H: 0;
