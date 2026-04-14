@@ -140,6 +140,10 @@
 
 .jb_saint {
   --AccentIcon: "☁";
+  --AccentColor: #005780; /* mykonos blue */
+  --AccentColor_H: 199.22;
+  --AccentColor_S: 100%;
+  --AccentColor_L: 25.1%;
 }
 
 .jb_spud {
