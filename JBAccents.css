@@ -139,11 +139,11 @@
 }
 
 .jb_saint {
+  --AccentColor: #5A789A; /* quiet harbor */
+  --AccentColor_H: 212;
+  --AccentColor_S: 26%;
+  --AccentColor_L: 48%;
   --AccentIcon: "☁";
-  --AccentColor: #005780; /* mykonos blue */
-  --AccentColor_H: 199.22;
-  --AccentColor_S: 100%;
-  --AccentColor_L: 25.1%;
 }
 
 .jb_spud {
