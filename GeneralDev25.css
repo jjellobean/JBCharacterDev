@@ -55,6 +55,7 @@
 
 .jbdt2 b, .jbdt2 i, .jbdt2 u {
   font: revert;
+	color: revert;
 }
 
 .jbdt2 b {
